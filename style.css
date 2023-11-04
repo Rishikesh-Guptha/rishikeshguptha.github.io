@@ -544,4 +544,51 @@ li{
 #skills {
   padding-top: 7rem;
 }
-@media (width) {}
+/* @media (width<1100px) {
+
+  #skills {
+    padding-top: 40vh;
+  }
+} */
+
+@media (width<990px) {
+  #home {
+    margin-top: -100vh;
+  }
+
+  #about {
+    padding-top: 30vh;
+  }
+
+  #skills {
+    padding-top: 80vh;
+  }
+
+  #portfolio {
+    padding-top: 60vh;
+  }
+
+  #home-inner {
+    margin-top: -50vh;
+  }
+}
+
+@media (width<768px) {
+  #about {
+    padding-top: 50vh;
+  }
+
+  #skills {
+    padding-top: 120vh;
+  }
+
+  #portfolio {
+    padding-top: 100vh;
+  }
+}
+
+@media (width<525px) {
+  #portfolio {
+    padding-top: 120vh;
+  }
+}

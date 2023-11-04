@@ -76,8 +76,8 @@
     </nav>
 
     <!-- HOME SECTION -->
-    <section class="hero-banner container py-5 mt-5 bg-transparent" id="home">
-      <div class=" home my-5">
+    <section class="hero-banner container py-5 mt-3 bg-transparent" id="home">
+      <div class=" home my-5" id="home-inner">
         <div class="row row align-items-center">
           <div class="col-lg-5 offset-lg-1 order-lg-1">
             <img src="img/facepic.png" class="img-fluid rounded-circle pro-pic" alt="Web Development">
@@ -112,7 +112,7 @@
 
 
   <!-- ABOUT SECTION -->
-  <div class="background" id="abt">
+  <div class="background" id="abt" style="margin-top: 0;">
     <section class="about-section container  bg-transparent " id="about" data-aos="fade-up"
       data-aos-duration="2000">
       <h3 class="text-white text-center fs-1 fw-bold py-5 poppins">ABOUT ME</h3>
@@ -137,7 +137,7 @@
 
 
   <!-- SKILLS SECTION -->
-  <div class="background ">
+  <div class="background " style="margin-top: 0;">
     <section class="skills container bg-transparent " id="skills">   
       <h3 class="text-white text-center fs-1 fw-bold py-5 poppins">SKILLS</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
@@ -479,8 +479,8 @@
       var v = document.querySelector('.auto-input')
       var typed = new Typed(v, {
         strings: ['Bitcoin developer', "Open Source Contributer", 'Web Developer ','Student'],
-        typeSpeed: 100,
-        backSpeed: 100,
+        typeSpeed: 300,
+        backSpeed: 300,
         loop: true
       });
     </script>
