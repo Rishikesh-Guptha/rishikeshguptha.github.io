@@ -514,11 +514,6 @@ body{
   visibility: hidden;
 }}
 
-
-
-
-
-
   @keyframes blink {
     from, to {
       color: transparent;
@@ -549,3 +544,4 @@ li{
 #skills {
   padding-top: 7rem;
 }
+@media (width) {}
